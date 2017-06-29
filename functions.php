@@ -15,7 +15,7 @@ function md_partitions_project_listing() {
 					$thumb = get_sub_field('project_main_image');
 					$gallery_imgs = get_sub_field('project_gallery'); ?>
 					<li class="trigger-gallery-<?php echo $i; ?>">
-						<?php // $thumb['sizes']['thumbnail'] or any custom size you have defined
+						<?php // $thumb['sizes']['thumbnail'] or any custom size you have defined ?>
 						<img src="<?php echo esc_url( $thumb['sizes']['thumbnail'] ); ?>" alt="<?php echo esc_attr( $thumb['alt'] ); ?>">
 						<?php echo esc_html( $name ); ?>
 						<?php // You might want to remove the inline CSS and add to your SASS files ?>
